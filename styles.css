@@ -6,15 +6,63 @@
     font-family: "Roboto", sans-serif;
 }
 
-/* NAV */
-
-.nav__row {
-display: flex;
-justify-content: center;
+li, a, button {
+    font-size: 22px;
+    font-weight: 600;
+    color: #243e63;
+    text-decoration: none;
 }
 
-.row {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
+/* HEADER & NAV */
+
+header{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 30px 10%;
+}
+
+.nav__logo--title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #243e63;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav__links li a{
+    transition: all 300ms ease;
+}
+
+.nav__links li a:hover{
+    color:#6415FF;
+}
+
+.square__logo{
+    height:60px;
+    width: 60px;
+    
+}
+
+
+button{
+    padding: 10px 32px;
+    background-color: rgb(80, 17, 204);
+    color: white;
+    border: none;
+    border-radius: 9999px;
+    margin-top: 2px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+button:hover{
+    color: rgb(80, 17, 204);
 }

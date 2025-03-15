@@ -236,3 +236,17 @@ width: calc(100% / 3);
     justify-content: space-around;
     align-items: flex-start;
   }
+
+  /* FLEX CONTAINER */
+
+  .flex__container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: calc(100% / 3);
+    
+  }
+
+  .flex_item{
+    
+  }

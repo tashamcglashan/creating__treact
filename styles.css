@@ -13,7 +13,16 @@ li, a, button {
     text-decoration: none;
 }
 
-/* HEADER & NAV */
+h4{
+    font-size: 36px;
+    margin-left: 14px;
+}
+
+p{
+    display: block;
+}
+
+/* NAV */
 
 header{
 display: flex;
@@ -22,15 +31,23 @@ align-items: center;
 padding: 30px 10%;
 }
 
+nav{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .nav__logo--title{
-    font-size: 32px;
-    font-weight: bold;
-    color: #243e63;
-    margin-right: auto;
+   display:flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .nav__links{
     list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav__links li{
@@ -65,5 +82,87 @@ button{
 }
 
 button:hover{
-    color: rgb(80, 17, 204);
+    color: black;
+}
+
+/* SECTION */
+
+.purple{
+    color: #6415FF;
+}
+
+h1{
+    font-size: 46px;
+}
+
+.header__description--para{
+    font-size: 24px;
+    display: block;
+    margin: 32px 0;
+}
+
+.header__email{
+    width:100%;
+    max-width: 448px;
+    height: 68px;
+    position: relative;
+    display:flex;
+    align-items: center;
+}
+
+.header__email--input {
+    width: 100%;
+    border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
+    padding: 20px 192px 20px 32px;
+    color: rgb(36, 62, 99);
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: border-color 300ms;
+}
+
+.header__email--btn{
+    z-index:2;
+    margin:9px;
+    padding: 16px;
+    height: calc(100%-16px);
+    border-radius: 500px;
+    width:190px;
+    border:none;
+    background-color: #6415FF;
+    color:white;
+    font-weight: 800;
+    font-size: 24px;
+    transition: all 300ms ease;
+}
+
+.header__img--wrapper{
+    display: flex;
+    justify-content: flex-end;
+    width: calc(100% - 41.6667%);
+}
+
+.header__img{
+    max-width: 512px;
+}
+
+.header__ourcustomer--title{
+font-weight: 600;
+color:#a0aec0;
+margin-top: 90px;
+}
+
+.header__customers{
+    margin-top: 16px;
+    padding-right: 64px;
+    color:#a0aec0;
+    opacity: 50%;
+}
+
+.container{
+    padding:96px;
 }

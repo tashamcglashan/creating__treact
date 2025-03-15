@@ -130,20 +130,19 @@ h1{
     color: rgb(36, 62, 99);
     font-size: 24px;
     font-weight: 400;
-    position: absolute;
-    top: 0;
-    bottom: 0;
     z-index: 1;
     transition: border-color 300ms;
 }
 
 .header__email--btn{
+    position: absolute;
+    right:0;
     z-index:2;
     margin:9px;
     padding: 16px;
     height: calc(100%-16px);
     border-radius: 500px;
-    width:190px;
+    width:180px;
     border:none;
     background-color: #6415FF;
     color:white;

@@ -85,11 +85,8 @@ button:hover{
     color: black;
 }
 
-/* SECTION */
+/* SECTION HEADER */
 
-.container{
-    padding:96px;
-}
 
 header .row{
     align-items: flex-end;
@@ -107,10 +104,19 @@ h1{
     font-size: 46px;
 }
 
+h2{
+font-size: 56px;
+}
+
+.header__description{
+    width: 41.6667%;
+}
+
 .header__description--para{
     font-size: 24px;
     display: block;
     margin: 32px 0;
+    line-height: 1.5;
 }
 
 .header__email{
@@ -180,4 +186,53 @@ margin-top: 90px;
     width:100%;
 }
 
+/* MAIN FEATURES */
 
+.main__features--title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 1%;
+}
+
+.main_features--service {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.main__features--para{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color:#7c8ba1;
+    line-height: 1.5;
+    margin-top: 1%;
+
+}
+
+.features{
+    position:relative;
+}
+
+section{
+    padding: 0 32px;
+}
+
+.features{
+display:flex;
+flex-wrap: wrap;
+margin-top: 40px;
+width: calc(100% / 3);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+    align-items: flex-start;
+  }

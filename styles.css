@@ -87,6 +87,18 @@ button:hover{
 
 /* SECTION */
 
+.container{
+    padding:96px;
+}
+
+header .row{
+    align-items: flex-end;
+}
+
+.row{
+    display: flex;
+}
+
 .purple{
     color: #6415FF;
 }
@@ -143,8 +155,13 @@ h1{
 .header__img--wrapper{
     display: flex;
     justify-content: flex-end;
-    width: calc(100% - 41.6667%);
+    width: 100%;
 }
+
+.wrapper_img{
+    width: 50%;
+}
+
 
 .header__img{
     max-width: 512px;
@@ -161,8 +178,7 @@ margin-top: 90px;
     padding-right: 64px;
     color:#a0aec0;
     opacity: 50%;
+    width:100%;
 }
 
-.container{
-    padding:96px;
-}
+

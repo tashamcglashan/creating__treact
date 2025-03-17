@@ -224,7 +224,7 @@ section{
     margin-bottom: 96px;
 }
 
-.row {
+.features {
 display:flex;
 flex-wrap: wrap;
 margin-top: 40px;

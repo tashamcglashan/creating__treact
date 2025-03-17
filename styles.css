@@ -214,15 +214,17 @@ align-items: center;
 
 }
 
-.features{
+/*.features{
     position:relative;
-}
-
-section{
     padding: 0 32px;
 }
+*/
+section{
+    padding: 0 32px;
+    margin-bottom: 96px;
+}
 
-.features{
+.row {
 display:flex;
 flex-wrap: wrap;
 margin-top: 40px;
@@ -239,14 +241,13 @@ width: calc(100% / 3);
 
   /* FLEX CONTAINER */
 
-  .flex__container{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: calc(100% / 3);
-    
+  .flex-item{
+    font-size: 32px;
+    margin-bottom: 16px;
   }
 
-  .flex_item{
-    
+  .flex__description{
+    font-size: 24px;
   }
+
+  

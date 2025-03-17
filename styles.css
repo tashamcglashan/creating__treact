@@ -224,11 +224,24 @@ section{
     margin-bottom: 96px;
 }
 
-.features {
+.features{
 display:flex;
 flex-wrap: wrap;
 margin-top: 40px;
-width: calc(100% / 3);
+}
+
+.feature{
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+.feature__img--wrapper{
+    display: flex;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 500px;
+    width: 65px;
+    
 }
 
 .container {

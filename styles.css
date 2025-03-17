@@ -233,6 +233,8 @@ margin-top: 40px;
 .feature{
     width: calc(100% / 3);
     text-align: center;
+    display:flex;
+    align-items: flex-start;
 }
 
 .feature__img--wrapper{
@@ -241,7 +243,13 @@ margin-top: 40px;
     border: 1px solid #e5e7eb;
     border-radius: 500px;
     width: 65px;
-    
+    height: 65px;
+
+}
+
+.feature__img{
+    width: 24px;
+    height: 24px;
 }
 
 .container {

@@ -94,6 +94,7 @@ header .row{
 
 .row{
     display: flex;
+
 }
 
 .purple{
@@ -101,7 +102,7 @@ header .row{
 }
 
 h1{
-    font-size: 46px;
+    font-size: 64px;
 }
 
 h2{
@@ -265,11 +266,13 @@ margin-top: 40px;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;  
-    justify-content: space-around;
-    align-items: flex-start;
+    
+    padding: 0 16px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+
+
   }
 
   /* FLEX CONTAINER */
@@ -277,6 +280,7 @@ margin-top: 40px;
   .flex-item{
     font-size: 32px;
     margin-bottom: 16px;
+    font-weight: 600;
   }
 
   .flex__description{
@@ -286,12 +290,26 @@ margin-top: 40px;
 
  /* QUALITY */
 
- .quality{
-    
+ .quality__pre--title{
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.6px;
+ }
+
+ .quality__main--title h1{
+    font-weight: 700;
+ }
+
+ .quality__para{
+color: #7c8ba1;
+font-size: 24px;
+font-weight: 500;
+line-height: 1.625;
  }
 
 .learn__more--btn{
     background-color: #6415FF;
+    margin-top: 32px;
 }
 
 .learn__more--btn:hover{
@@ -301,5 +319,5 @@ margin-top: 40px;
 }
 
 .hero__img{
-    width: 50%;
+    width: 100%;
 }

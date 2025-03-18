@@ -70,7 +70,7 @@ nav{
 }
 
 
-button{
+.signup__btn{
     padding: 10px 32px;
     background-color: rgb(80, 17, 204);
     color: white;
@@ -81,7 +81,7 @@ button{
     transition: all 300ms ease;
 }
 
-button:hover{
+.signup__btn:hover{
     color: black;
 }
 
@@ -156,6 +156,12 @@ font-size: 56px;
     font-weight: 800;
     font-size: 24px;
     transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.header__email--btn:hover{
+    background-color: rgba(60, 13, 153);
+    
 }
 
 .header__img--wrapper{
@@ -271,9 +277,10 @@ margin-top: 40px;
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+}
+    
 
-
-  }
+  
 
   /* FLEX CONTAINER */
 
@@ -308,8 +315,13 @@ line-height: 1.625;
  }
 
 .learn__more--btn{
-    background-color: #6415FF;
-    margin-top: 32px;
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 500px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 300ms;
 }
 
 .learn__more--btn:hover{
@@ -321,3 +333,103 @@ line-height: 1.625;
 .hero__img{
     width: 100%;
 }
+
+.quality__wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quality__description{
+    width: 80%;
+}
+
+/* STEPS */
+
+.steps .container{
+padding: 96px;
+}
+
+.steps__word--mark {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 .steps__get--started{
+    font-weight: 700;
+}
+
+.step{
+    display: flex;
+    margin-top: 32px;
+}
+
+.step__number{
+    color:#cbd5e0;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 42px;
+}
+
+.step__description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+}
+
+.step__title{
+    font-size: 36px;
+    font-weight: 600;
+    color:#243e63;
+}
+
+.step__para{
+    color: #718096;
+    margin-top: 12px;
+    font-weight: 500;
+    line-height: 2;
+    font-size: 22px;
+}
+
+
+/* VALUES */
+
+.values__list{
+display: flex;
+}
+
+.value__img--wrapper svg{
+    width: 24px;
+    height: 24px;
+}
+
+.value__btn{
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 500px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 300ms;
+}
+
+.value__btn:hover{
+    background-color: #4f0bd8;
+}
+
+.values__para{
+    font-size: 28px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+}
+
+.value:nth-child(1)
+.value__img--wrapper{
+    background-color: #9ae6b4;
+    width:32px;
+    height:32px;
+   align-items: center;
+   border-radius: 50px;
+}
+ 

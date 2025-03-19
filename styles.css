@@ -435,6 +435,10 @@ h2 .steps__get--started{
     display: flex;
 }
 
+.values__list img{
+    width: 50%;
+}
+
 .value__img--wrapper{
     display: flex;
 }

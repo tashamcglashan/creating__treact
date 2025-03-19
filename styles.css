@@ -429,8 +429,8 @@ h2 .steps__get--started{
 
 }
 
-.values__list img{
-    width: 50%;
+.values__list--img {
+width: 50%;
 }
 
 .value:nth-child(2) 

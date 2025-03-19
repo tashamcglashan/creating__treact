@@ -397,7 +397,7 @@ h2 .steps__get--started{
 /* VALUES */
 
 .values__list{
-display: flex;
+display:flex;
 }
 
 .values__img{

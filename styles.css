@@ -224,14 +224,6 @@ align-items: center;
 
 }
 
-#pink__blob{
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 16rem;
-    padding: 16px;
-}
-
 /*.features{
     position:relative;
     padding: 0 32px;
@@ -402,20 +394,24 @@ h2 .steps__get--started{
     align-items: center;
 }
 
+
+
 .values__description{
     padding: 32px 64px 32px 0;
 }
 
 .section__tag{
-    font-size: 16px;
+    font-size: 24px;
     color: #6415ff;
     letter-spacing: 1.6px;
-    font-weight: 700;
+    font-weight: 800;
     text-transform: uppercase;
 }
 
 .value__title{
     display: flex;
+    align-items: center;
+
 }
 
 .section__title {
@@ -432,7 +428,8 @@ h2 .steps__get--started{
 }
 
 .values__list{
-    display: flex;
+   display:flex;
+
 }
 
 .values__list img{
@@ -441,4 +438,23 @@ h2 .steps__get--started{
 
 .value__img--wrapper{
     display: flex;
+}
+
+@media(max-width: 1024px){
+    .section__para{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1024px){
+    .values__list{
+        flex-direction: column;
+        max-width: 320px;
+    }
+}
+
+@media(max-width: 1024px){
+    .value:nth-child(1), .value:nth-child(2){
+        margin: 40px;
+    }
 }

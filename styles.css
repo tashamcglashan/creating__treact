@@ -475,6 +475,27 @@ width: 50%;
     display: flex;
 }
 
+
+/* PRICING */
+
+#pricing
+.section__para{
+    max-width: 576px;
+    text-align: center;
+}
+
+#pricing 
+.pricing__title{
+text-align: center;
+}
+
+
+
+
+
+
+
+
 /* MEDIA QUERY  */
 
 @media(max-width: 1024px){

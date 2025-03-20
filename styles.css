@@ -509,6 +509,9 @@ h4 .pricing__main__title{
     font-size: 16px;
 }
 
+
+/* PRICING */
+
 .plans{
     display: flex;
     justify-content: space-between;

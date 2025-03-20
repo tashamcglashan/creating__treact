@@ -426,7 +426,9 @@ h2 .steps__get--started{
     font-size: 24px;
     font-weight: 500;
     color: #7c8ba1;
-    line-height: 1.625
+    line-height: 1.625;
+    padding-bottom: 48px;
+    
 
 }
 
@@ -603,19 +605,32 @@ h4 .pricing__main__title{
     position: relative;
 }
 
-.plan__button, .value:nth-child(1) {
+.plan__button {
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
-.plan__button,.value:nth-child(2) {
+.plan__button, .plan__button--second{
     color: #6415FF;
     background: #fff;
 }
 
-.value:nth-child(2){
-    background:linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);;
+.plan:nth-child(2){
+    background:  linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
+
+.plan__top:nth-child(2){
+    color: #fff;
+}
+
+.plan__features:nth-child(2){
+   
+}
+
+.plan:nth-child(2) .plan__stripe {
+    visibility: hidden;
+}
+
 
 .plan__button {
     cursor: pointer;

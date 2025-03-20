@@ -633,6 +633,7 @@ h4 .pricing__main__title{
 }
 
 .plan__button {
+    cursor: pointer;
     text-transform: uppercase;
     text-align: center;
     padding: 16px 32px;

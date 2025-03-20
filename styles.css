@@ -613,7 +613,7 @@ h4 .pricing__main__title{
     background: #fff;
 }
 
-.plan__stripe,.value:nth-child(2){
+.value:nth-child(2){
     background:linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);;
 }
 

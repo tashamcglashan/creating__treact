@@ -509,6 +509,15 @@ h4 .pricing__main__title{
 
 
 /* PLANS */
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
 .plan {
     width: 100%;
     max-width: 384px;
@@ -522,10 +531,7 @@ h4 .pricing__main__title{
     background: #fff;
 }
 
-.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
-    color: #f7fafc;
-    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
-}
+
 
 .plan__top, .plan__middle, .plan__bottom {
     padding: 32px;
@@ -577,12 +583,6 @@ h4 .pricing__main__title{
 .plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__button {
     color: #f7fafc;
     background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-}
-
-
-.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
-    color: #f7fafc;
-    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 .plan__button {

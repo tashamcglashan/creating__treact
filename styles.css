@@ -486,15 +486,13 @@ width: 50%;
 
 /* PRICING */
 
-#pricing{
-font-size: 24px;
-padding-bottom: 48px;
+#pricing,
+.pricing--para{
+    text-align: center;
 }
 
-#pricing
-.section__para{
-    max-width: 576px;
-    text-align: center;
+h4 .pricing__main__title{
+    font-size: 16px;
 }
 
 .pricing--para {
@@ -508,34 +506,10 @@ padding-bottom: 48px;
     padding-bottom: 96px;
 }
 
-#pricing
-.pricing--para{
-    max-width: 576px;
-    text-align: center;
-}
-
-h4 .pricing__main__title{
-    font-size: 16px;
-}
-
-
-#pricing{
-    display: flex;
-    justify-content: center;
-}
 
 
 /* PLANS */
-
-.plans{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    position: relative;
-    z-index: 100;
-}
-
-.plan{
+.plan {
     width: 100%;
     max-width: 384px;
     margin: 64px 32px 0 0;
@@ -545,25 +519,12 @@ h4 .pricing__main__title{
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     position: relative;
     z-index: 100;
-    background: #fff;  
+    background: #fff;
 }
 
-.plan__price{
-    font-size: 48px;
-}
-
-.plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__button {
+.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__button {
     color: #f7fafc;
-    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-}
-
-
-.plan__stripe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 8px;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 .plan__top, .plan__middle, .plan__bottom {
@@ -571,6 +532,20 @@ h4 .pricing__main__title{
     text-align: center;
 }
 
+.plan:nth-child(odd) .plan__name, .plan:nth-child(odd) .plan__price, .plan:nth-child(odd) .plan__target {
+    color: #1a202c;
+}
+.plan__name {
+    font-size: 20px;
+}
+.plan__name, .plan__price, .plan__duration {
+    font-weight: bold;
+    line-height: 1.625;
+}
+
+.plan:nth-child(odd) .plan__duration {
+    color: #AEB9C8;
+}
 
 .plan:nth-child(1) .plan__middle, .plan:nth-child(3 ) .plan__middle {
     border-top: 2px solid rgb(229, 231, 235);
@@ -585,82 +560,16 @@ h4 .pricing__main__title{
     color: #1a202c;
 }
 .plan__target {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: 0.025em;
 }
 
-.plan__features {
+.plan__feature {
     margin-top: 20px;
     font-weight: 500;
     color: #718096;
     font-size: 16px;
     line-height: 1.5;
 }
-
-.plan__bottom{
-    padding:32px 96px;
-    z-index: 10;
-    position: relative;
-}
-
-.plan__button {
-    color: #f7fafc;
-    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
-}
-
-.plan__button, .plan__button--second{
-    color: #6415FF;
-    background: #fff;
-}
-
-.plan:nth-child(2){
-    background:  linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
-}
-
-.plan__top:nth-child(2){
-    color: #fff;
-}
-
-.plan__features:nth-child(2){
-   
-}
-
-.plan:nth-child(2) .plan__stripe {
-    visibility: hidden;
-}
-
-
-.plan__button {
-    cursor: pointer;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 16px 32px;
-    border-radius: 500px;
-    border: none;
-    font-size: 14px;
-    width: 100%;
-    max-width: 192px;
-    font-weight: bold;
-    letter-spacing: 0.05em;
-    line-height: 1.5;
-    transition: all 300ms;}
-
-
-.plan {
-    width: 100%;
-    max-width: 384px;
-    margin: 64px 32px 0 0;
-    padding-top: 8px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-    position: relative;
-    z-index: 100;
-}
-
-
-/* MEDIA QUERY  */
-
-

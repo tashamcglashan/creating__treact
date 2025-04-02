@@ -1266,6 +1266,7 @@ li, a, button {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-right: 15px;
     }
     #pricing .row {
         margin-top: 40px;
@@ -1296,6 +1297,9 @@ li, a, button {
 
 @media(max-width: 640px) {
 
+      .row{
+        margin: 14px;
+      }
     .steps__img--wrapper{
         width:0 auto;
     }
@@ -1358,6 +1362,14 @@ li, a, button {
     }
     .steps__list {
         margin-top: 48px;
+    }
+
+    .steps__img{
+       z-index: 2;
+        }
+        img {
+            width: 100%;
+        }
     }
     .btn {
         line-height: 1.5;
@@ -1434,4 +1446,3 @@ li, a, button {
         line-height: 1.5;
     }
 
-}

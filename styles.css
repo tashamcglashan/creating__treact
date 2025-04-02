@@ -1189,6 +1189,13 @@ li, a, button {
 }
 
 @media(max-width: 768px) {
+    .pricing--para{
+        font-size: 20px;
+    }
+    
+    h4 {
+        font-size: 20px;
+    }
     .features {
         justify-content: center;
     }
